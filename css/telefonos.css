@@ -1,0 +1,602 @@
+body{
+    background-image: url(../fotos/fondo2.jpg);
+
+}
+
+nav{
+    
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: -38px;
+   
+}
+
+nav ul li {
+    --c: rgb(21, 180, 29);
+    color: var(--c);
+    font-size: 16px;
+    border: 0.3em solid var(--c);
+    border-radius: 0.5em;
+    width: 12em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;
+}
+
+nav ul li span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+
+nav ul li:hover {
+    color: rgb(255, 255, 255);
+}
+
+nav ul li:hover span {
+    transform: translateY(0) scale(2);
+}
+
+nav ul li span:nth-child(1) {
+    --n: 1;
+}
+
+nav ul li span:nth-child(2) {
+    --n: 2;
+}
+
+nav ul li span:nth-child(3) {
+    --n: 3;
+}
+
+nav ul li span:nth-child(4) {
+    --n: 4;
+}.iphone11{
+    width: 200px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(21, 180, 29);;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);      
+    
+}
+
+
+
+
+ul{
+    text-align: left;
+}
+
+
+.promocion{
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.promocion img{
+    border-radius: 15px;
+    transition: transform .8s;
+    margin-right: 45px;
+}
+
+.promocion img:hover{
+    transform: scale(1.1); 
+}
+
+.telefonos{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+
+.telefonos img{
+    background-color: #FAEBD7;
+    border-radius: 15px;
+}
+
+.iphonexs{
+    padding: 20px;
+}
+
+.iphone8{
+    padding: 20px;
+}
+
+.iphone7{
+    padding: 20px;
+    
+}
+
+.telefonos div{
+    background-color: #FAEBD7;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px 7px black;
+}
+
+.fila2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.fila2 div{
+    background-color: #FAEBD7;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px 7px black;
+    
+}
+
+.iphonexr{
+    padding: 30px;
+}
+
+.iphone11{
+    padding: 30px;
+}
+
+.iphone12{
+    padding: 10px;
+
+}
+
+.fila3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.fila3 div{
+    background-color: #FAEBD7;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px 7px black;
+}
+
+.iphone12pro{
+    padding: 20px;
+}
+
+.iphone11promax{
+    padding: 20px;
+}
+
+.iphone6s{
+    padding: 20px;
+}
+
+.fila4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.fila4 div{
+    background-color: #FAEBD7;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px 7px black;
+}
+
+.iphonex{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.fila5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.fila5 div{
+    background-color: #FAEBD7;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px 7px black;
+}
+
+.redminote10{
+    padding: 20px;
+}
+
+.mi9tpro{
+    padding: 20px;
+}
+
+.mia3{
+    padding: 10px;
+}
+
+.redminote8{
+    padding: 20px;
+}
+
+.fila6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.fila6 div{
+    background-color: #FAEBD7;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px 7px black;
+}
+
+.redmi7{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.redminote9{
+    padding: 20px;
+}
+
+.s21{
+    padding: 20px;
+}
+
+.s21plus{
+    padding: 20px;
+}
+
+.s21ultra{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.fila7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.fila7 div{
+    background-color: #FAEBD7;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px 7px black;
+}
+
+.applelogo{
+    display: flex;
+    justify-content: center;
+   margin-bottom: 40px;
+  
+}
+
+.xiaomilogo{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.fila8{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.fila8 div{
+    background-color: #FAEBD7;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px 7px black;
+}
+
+.samsunglogo{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.redmi5plus{
+    padding: 20px;
+}
+
+.redmis2{
+    padding: 10px;
+}
+
+.mia2lite{
+    margin-top: -5px;
+    padding: 20px;
+}
+
+.applelogo img{
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px 7px black;
+    background-color: white;
+}
+
+.samsunglogo img{
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px 7px black;
+    background-color: white;
+}
+
+.xiaomilogo img{
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px 7px black;
+    background-color: white;
+}.redminote5{
+    padding: 30px;
+    margin-top: -30px;
+}
+
+.a32{
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.a12{
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.a20{
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.a217f{
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.a30{
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.redminote6pro{
+    padding: 20px;
+}
+
+.a41{
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.a51{
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.a71{
+    padding: 20px;
+    margin-top: 30px;
+
+}@media (max-width: 900px){
+    nav ul{
+        display: block;
+        
+    }
+   .telefonos {
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .telefonos div{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+    .fila2{
+        display: flex;
+        flex-direction: column;
+        margin-top: -3px;
+    }
+    .fila2 div{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+    }.fila3{
+        display: flex;
+        flex-direction: column;
+        margin-top: -3px;
+    }
+    .fila3 div{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+    .fila4{
+        display: flex;
+        flex-direction: column;
+        margin-top: -3px;
+    }
+    .fila4 div{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+    .fila5{
+        display: flex;
+        flex-direction: column;
+        margin-top: -3px;
+    }
+    .fila5 div{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+    .fila6{
+        display: flex;
+        flex-direction: column;
+        margin-top: -3px;
+    }
+    .fila6 div{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+    .fila7{
+        display: flex;
+        flex-direction: column;
+        margin-top: -3px;
+    }
+    .fila7 div{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+    .fila8{
+        display: flex;
+        flex-direction: column;
+        margin-top: -3px;
+    }
+    .fila8 div{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+    footer img{
+        width: 600px;
+        height: 66px;
+    }
+}.mi10lite{
+    margin-top: 20px;
+    padding: 20px;
+}
+.a50{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+footer img{
+    border-radius: 10px;
+
+}@media (max-width: 600px){
+    footer img{
+        width: 450px;
+        height: 49px;
+    }
+}
+.mia1{
+    padding: 20px;
+}
+.redmi8{
+    padding: 20px;
+}
+
+.redmi9{
+    padding: 20px;
+}
+.redmi9c{
+    padding: 20px;
+}
+.redmi10{
+    padding: 20px;
+}
+.redmi10c{
+    padding: 20px;
+}
+.a52{
+    padding: 20px;
+}
+.a14{
+    padding: 20px;
+    margin-top: 20px;
+}
+.a13{
+    padding: 20px;
+    margin-top: 10px;
+}
+.s10{
+    margin-top: 60px;
+}
+.s10plus{
+    padding: 10px;
+    margin-top: 30px;
+}
+.a03{
+    padding: 20px;
+}
+.a02{
+    padding: 20px;
+}
+@media(max-width: 500px){
+    .promocion img{
+       
+            border-radius: 15px;
+        transition: transform .8s;
+        width: 400px;
+        height: 176px;
+    }
+    .promocion{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width: 600px){
+    .promocion img{
+        border-radius: 15px;
+    transition: transform .8s;
+    width: 350px;
+    height: 350px;
+    }
+}
+
+
+
